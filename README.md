@@ -26,8 +26,8 @@ This repository contains a full-stack AI-powered chatbot designed to answer ques
 
 | Layer       | Tech Stack                                      |
 |-------------|-------------------------------------------------|
-| Backend     | Python, Flask, LangChain, Ollama, ChromaDB      |
-| Model       | Gemma (fine-tuned on Persian), Persian Embeddings |
+| Backend     | Python, Flask     |
+| Model       | Gemma (fine-tuned on Persian), Persian Embeddings, LangChain, Ollama, ChromaDB  |
 | Hosting     | Google Colab + Ngrok                            |
 | Frontend    | React, Vite                                     |
 
@@ -62,3 +62,8 @@ npm run dev
 To use Ngrok, you must sign up and get an authtoken, then config it in Colab:
 
 !ngrok config add-authtoken YOUR_AUTHTOKEN
+
+---
+
+## 📸 Demo
+![Chatbot UI](https://github.com/Hesam760/ChatBot/blob/master/Screenshots/ChatbotUI.png)
