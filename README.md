@@ -39,7 +39,7 @@ This repository contains a full-stack AI-powered chatbot designed to answer ques
 
 > ⚠️ Requires a high-end GPU (e.g. **NVIDIA 4090**) if you want to run locally. Otherwise, use **Google Colab**.
 
-1. Open `backend/colab_notebook.ipynb` in Google Colab.
+1. Open `RAG.ipynb` in Google Colab.
 2. Run each **cell sequentially** (top to bottom) without skipping.
 3. This:
     - Loads the fine-tuned Gemma model.
